@@ -1,0 +1,19 @@
+{
+  "name": "tpm-2610-videothumbnailer",
+  "version": "1.0.0",
+  "description": "AWS Lambda Badge: Task-3 Video Thumbnail Generation Layer",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternstormdf/TPM-2610.git"
+  },
+  "author": "claudi.paniagua@devfactory.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patternstormdf/TPM-2610/issues"
+  },
+  "homepage": "https://github.com/patternstormdf/TPM-2610#readme",
+  "dependencies": {
+    "videothumbnailer": "../../../../src/videothumbnailer"
+  }
+}

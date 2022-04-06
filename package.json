@@ -1,0 +1,40 @@
+{
+  "name": "tpm-2610",
+  "version": "1.0.0",
+  "description": "AWS Lambda Badge: Task-3 Video Thumbnail Generation Layer",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternstormdf/TPM-2610.git"
+  },
+  "author": "claudi.paniagua@devfactory.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patternstormdf/TPM-2610/issues"
+  },
+  "homepage": "https://github.com/patternstormdf/TPM-2610#readme",
+  "scripts": {
+    "comp": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "build": "tsc && npm install --prefix src/layers/videothumbnailer/nodejs",
+    "deploy": "cdk deploy",
+    "start": "node ."
+  },
+  "devDependencies": {
+    "@pstorm/aws-cdk": "latest",
+    "@types/aws-lambda": "^8.10.93",
+    "@types/jest": "^24.0.22",
+    "@types/node": "^14.0.0",
+    "aws-cdk-lib": "^2.15.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^10.5.0",
+    "typescript": "latest",
+    "@types/parse-filepath": "latest",
+    "parse-filepath": "latest"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1060.0"
+  }
+}
